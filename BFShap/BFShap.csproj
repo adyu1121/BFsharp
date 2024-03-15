@@ -6,6 +6,35 @@
     <Nullable>disable</Nullable>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <SignAssembly>False</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>BFShap</Title>
+    <Authors>ADyu</Authors>
+    <Copyright>MIT License</Copyright>
+    <Description>It is a BF implementation made with C#.</Description>
+    <PackageProjectUrl>https://github.com/adyu1121</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/adyu1121/BFshap</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>C#;Brainfuck</PackageTags>
+    <Version>1.0</Version>
+    <PackageIcon>BFShap.png</PackageIcon>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>The BFShap 1.0</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Desktop\BFShap.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\Desktop\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

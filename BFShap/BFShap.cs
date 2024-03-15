@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace BrainFuck
+namespace BrainFuck.BFShap
 {
-    public class BF
+    public class BFShap
     {
         private enum symbolList
         {
@@ -15,24 +15,6 @@ namespace BrainFuck
             OutPut = '.',
             LoopStart = '[',
             LoopEnd = ']'
-        }
-        public enum ErrorrCode
-        {
-            Overflow = 1,Underflow,
-            MemoryOver, MemoryUnder,
-            LoopIsUnstart,LoopIsUnend,
-            InputFuncIsNull, OutputFuncIsNull,
-            CodeEnd
-        }
-        public struct Error
-        {
-            public ErrorrCode error;
-            public long index;
-            public Error(ErrorrCode error, long index)
-            {
-                this.error = error;
-                this.index = index;
-            }
         }
         public delegate char Input();
         public delegate void Output(char ASCII);
@@ -77,8 +59,8 @@ namespace BrainFuck
         private Input InputFunc;
         private Output OutputFunc;
 
-        public BF(Input input, Output output) : this(string.Empty, input, output) { }
-        public BF(string code, Input input, Output output)
+        public BFShap(Input input, Output output) : this(string.Empty, input, output) { }
+        public BFShap(string code, Input input, Output output)
         {
             Init();
             Code = code;
