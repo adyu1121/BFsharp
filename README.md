@@ -13,14 +13,17 @@ Next, define twe function .
 --------
 ex :
 
-`static char input() {
-return Console.Read();
+```
+static char input() {
+    return Console.Read();
  }
- `
+ ```
  
-`static void output(char ASCII){
+```
+static void output(char ASCII){
     Console.Write(ASCII)
-}`
+}
+```
 
 Creat BF Cless.
 -------------
@@ -33,9 +36,28 @@ Access the "bf.Code" property and enter the bf code.
 \[>+++++++>++++++++++>+++>+<<<<-\]
 \>++.\>+.+++++++..+++.>++++++++++++++.------------.<<+++++++++++++++.>.+++.------.--------.\>+.";`
 
+Invoke "Step"
+-----
+`bf.Step();`
+
+Run the code one step
+
+`bf.Step(10);`
+
+Run the code 10 step
+
+When a parameter is received, it executes as many steps as the parameter.
 
 Pass an argument "-1" to "Step"
 ---------
-whe Pass an argument "-1" to "Step", bf will run the bf code to the end
-
 `bf.Step(-1);`
+
+whe Pass an argument "-1" to "Step", it will run the bf code to the end
+
+>To see more features, please read https://adyu1121.github.io/apiv1.1.html
+
+<br><br>
+Since I am Korean, there may be grammatical errors.
+Please let me know if there are any grammar mistakes.
+
+>mail: adyu1121@gmail.com
