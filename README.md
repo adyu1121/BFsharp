@@ -56,6 +56,10 @@ whe Pass an argument "-1" to "Step", it will run the bf code to the end
 
 >To see more features, please read https://adyu1121.github.io/apiv1.1.html
 
+To check all versions, read Docs
+
+Docs link : https://adyu1121.github.io/
+
 Since I am Korean, there may be grammatical errors.
 Please let me know if there are any grammar mistakes.
 
