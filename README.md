@@ -26,7 +26,7 @@ Creat BF Cless
 -------------
 `BF bf = new BF(input, output);`
 
-bf class accesses the property “Code” with the BF interpreter and enters the code to be translated. 
+bf class accesses the property “Code” with the enters the code to be translated. 
 --------------
 `bf.Code = "++++++++++
 \[>+++++++>++++++++++>+++>+<<<<-\]
