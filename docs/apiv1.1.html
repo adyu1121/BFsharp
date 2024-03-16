@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#start">start</a><br></li>
+        <li><a href="#class">class</a><br></li>
+        <li><a href="#struct">struct</a><br></li>
+        <li><a href="#enum">enum</a><br></li>
+        <li><a href="#delegate">delegate</a><br></li>
+    </ul>
+    <h2 id="start">Start</h2>
+    <h3 id="namespace">namespace</h3>
+    <p>namespace "Brainfuck.BFShap"</p>
+    <ul>
+        <li><p>class <a href="#BF">BF</a></p></li>
+        <li><p>struct <a href="#Error">Error</a></p></li>
+        <li><p>enum <a href="#ErrorCode">ErrorCode</a></p></li>
+    </ul>
+    <h2 id="class">class</h2>
+    <h3 id="BF">BF</h3>
+    <h3 id="constructor">constructor</h3>
+    <ul>
+        <li>BFShap(<a href="#delegate">Input</a> input, <a href="#delegate">Output</a> output)</li>
+        <li>BFShap(string code, <a href="#delegate">Input</a> input, <a href="#delegate">Output</a> output)</li>
+    </ul>  
+    <p>BFShap(<a href="#delegate">Input</a> input, <a href="#delegate">Output</a> output)<br>
+        input : Receives input of a function to be executed during input<br>
+        output : Receives input of a function to be executed during output</p>
+    <p>BFShap(string code, <a href="#delegate">Input</a> input, <a href="#delegate">Output</a> output)<br>
+        code : This is the bf code to run<br>
+        input : Receives input of a function to be executed during input<br>
+        output : Receives input of a function to be executed during output</p>
+    <h3 id="method">method</h3>
+    <ul>
+        <li>void Init()</li>
+        <li>void SetIn(<a href="#delegate">Input</a> input)</li>
+        <li>void SetOut(<a href="#delegate">Output</a> output)</li>
+        <li><a href="#Error">Error</a> GetLastError()</li>
+        <li>bool Stap(int loop)</li>
+        <li>bool Stap()</li>
+        <li>string ToString()</li>
+    </ul> 
+    <p>void Init() : Reset the progress of code</p>
+    <p>void SetIn(<a href="#delegate">Input</a> input) : Change the function to run when run ","</p>
+    <p>void SetOut(<a href="#delegate">Output</a> output) : Change the function to run when run "."</p>
+    <p><a href="#Error">Error</a> GetLastError() : Returns the error of the last execution</p>
+    <p>bool Stap(int loop) : Executes steps as many times as “loop”. -1 means it runs until the end.</p>
+    <p>bool Stap() : Run the code one step</p>
+    <p>string ToString() : return BF code</p>
+    <h3 id="property">property</h3>
+    <ul>
+        <li>long this[int i](indexer)</li>
+        <li>string Code { get; set; }</li>
+        <li>int Index { get; private set; }</li>
+        <li>int Pointer { get; private set; }</li>
+    </ul> 
+    <p>indexer : You can access values in memory</p>
+    <p>Code : You can access BF's code</p>
+    <p>Index : This is the index of the bfcode currently in progress.</p>
+    <p>Pointer : This is the memory address of the current</p>
+    <h2 id="struct">struct</h2>
+    <h3 id="Error">Error</h3>
+    <ul>
+        <li>int index</li>
+        <li><a href="#ErrorCode">ErrorCode</a> error</li>
+    </ul> 
+    <p>index : Index where the error occurred</p>
+    <p>error : Type of error</p>
+    <h2 id="enum">enum</h2>
+    <h3 id="ErrorCode">ErrorCode</h3>
+    <ul>
+        <li>Overflow</li>
+        <li>Underflow</li>
+        <li>MemoryOver</li>
+        <li>MemoryUnder</li>
+        <li>LoopIsUnstart</li>
+        <li>LoopIsUnend</li>
+        <li>CodeEnd</li>
+    </ul> 
+    <p>Overflow : Value over long.Maxvalue when using "+"</p>
+    <p>Underflow : Value under long.Minvalue when using "-"</p>
+    <p>MemoryOver : Memory numder over 32767 when using "&#62;"</p>
+    <p>MemoryUnder : Memory numder under 0 when using "&#60;"</p>
+    <p>MemoryOver : Memory numder under 0 when using "&#60;"</p>
+    <p>LoopIsUnstart : The loop did not start, but ] was entered.</p>
+    <p>LoopIsUnend : End of code, but ] was not entered</p>
+    <p>CodeEnd : code is finished</p>
+    
+    
+    <h2 id="delegate">delegate</h2>
+    <ul>
+        <li>public delegate char Input();</li>
+        <li>public delegate void Output(char ASCII);</li>
+    </ul>
+    <p>public delegate char Input(); : This is the prototype of the function that will be executed when "," is executed.</p>
+    <p>public delegate void Output(char ASCII); : This is the prototype of the function that will be executed when "." is executed.</p>
+</body>
+</html>
