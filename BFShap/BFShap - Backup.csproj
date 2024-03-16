@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/adyu1121/BFshap</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>C#;Brainfuck</PackageTags>
-    <Version>1.1.1</Version>
+    <Version>1.1</Version>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
