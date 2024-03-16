@@ -1,15 +1,15 @@
-[![NuGet Badge](https://buildstats.info/nuget/BFshap)](https://www.nuget.org/packages/Brainfuck-Runner/)
+[![NuGet Badge](https://buildstats.info/nuget/BFshap)](https://www.nuget.org/packages/BFshap/)
 # BFShap
 It is a BF implementation made with C#.
 
 >DotNet Framework : 6.0
 
-## How to use it to your .Net project
+## How to use it to your .Net project.
 First, Using NameSpace BrainFuck.BFShap
 ----------
 `using BrainFuck.BFShap`
 
-Next, define twe function 
+Next, define twe function .
 --------
 ex :
 
@@ -22,17 +22,20 @@ return Console.Read();
     Console.Write(ASCII)
 }`
 
-Creat BF Cless
+Creat BF Cless.
 -------------
 `BF bf = new BF(input, output);`
 
-bf class accesses the property “Code” with the BF interpreter and enters the code to be translated. 
+
+Access the "bf.Code" property and enter the bf code.
 --------------
 `bf.Code = "++++++++++
 \[>+++++++>++++++++++>+++>+<<<<-\]
 \>++.\>+.+++++++..+++.>++++++++++++++.------------.<<+++++++++++++++.>.+++.------.--------.\>+.";`
 
 
-If you give -1 as the argument to Step, the code will run to the end.
+Pass an argument "-1" to "Step"
 ---------
+whe Pass an argument "-1" to "Step", bf will run the bf code to the end
+
 `bf.Step(-1);`
