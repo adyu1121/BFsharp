@@ -4,12 +4,12 @@ It is a BF implementation made with C#.
 
 >DotNet Framework : 6.0
 
-## How to use it to your .Net project
+## How to use it to your .Net project.
 First, Using NameSpace BrainFuck.BFShap
 ----------
 `using BrainFuck.BFShap`
 
-Next, define twe function 
+Next, define twe function .
 --------
 ex :
 
@@ -22,11 +22,12 @@ return Console.Read();
     Console.Write(ASCII)
 }`
 
-Creat BF Cless
+Creat BF Cless.
 -------------
 `BF bf = new BF(input, output);`
 
-bf class accesses the property “Code” with the enters the code to be translated. 
+
+Access the "bf.Code" property and enter the bf code.
 --------------
 `bf.Code = "++++++++++
 \[>+++++++>++++++++++>+++>+<<<<-\]
