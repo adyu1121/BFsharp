@@ -34,6 +34,7 @@ Access the "bf.Code" property and enter the bf code.
 \>++.\>+.+++++++..+++.>++++++++++++++.------------.<<+++++++++++++++.>.+++.------.--------.\>+.";`
 
 
-If you give -1 as the argument to Step, the code will run to the end.
+Pass an argument "-1" to "Step"
 ---------
+whe Pass an argument "-1" to "Step", bf will run the bf code to the end
 `bf.Step(-1);`
