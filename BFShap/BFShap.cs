@@ -88,7 +88,7 @@ namespace BrainFuck.BFShap
         {
             return LastError;
         }
-        public bool Stap(int loop)
+        public bool Step(int loop)
         {
             for (int i = loop; i != 0; i--)
             {
@@ -97,7 +97,7 @@ namespace BrainFuck.BFShap
             }
             return true;
         }
-        public bool Stap()
+        public bool Step()
         {
             if (Index > BFCode.Count - 1)
                 if (LoopStack.Count == 0) return SetError(ErrorrCode.CodeEnd);
