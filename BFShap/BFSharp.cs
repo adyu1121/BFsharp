@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace BrainFuck.BFShap
+namespace BrainFuck.BFSharp
 {
-    public class BFShap
+    public class BF
     {
         private enum symbolList
         {
@@ -59,8 +59,8 @@ namespace BrainFuck.BFShap
         private Input InputFunc;
         private Output OutputFunc;
 
-        public BFShap(Input input, Output output) : this(string.Empty, input, output) { }
-        public BFShap(string code, Input input, Output output)
+        public BF(Input input, Output output) : this(string.Empty, input, output) { }
+        public BF(string code, Input input, Output output)
         {
             Init();
             Code = code;

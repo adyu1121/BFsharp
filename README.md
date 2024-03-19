@@ -5,9 +5,9 @@ It is a BF implementation made with C#.
 >DotNet Framework : 6.0
 
 ## How to use it to your .Net project.
-First, Using NameSpace BrainFuck.BFShap
+First, Using NameSpace BrainFuck.BFSharp
 ----------
-`using BrainFuck.BFShap`
+`using BrainFuck.BFSharp`
 
 Next, define twe function .
 --------
