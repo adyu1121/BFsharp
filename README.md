@@ -1,5 +1,5 @@
-[![NuGet Badge](https://buildstats.info/nuget/BFshap)](https://www.nuget.org/packages/BFshap/)
-# BFShap
+[![NuGet Badge](https://buildstats.info/nuget/BFsharp)](https://www.nuget.org/packages/BFsharp/)
+# BFSharp
 It is a BF implementation made with C#.
 
 >DotNet Framework : 6.0

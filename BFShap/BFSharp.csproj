@@ -12,19 +12,18 @@
     <Copyright>MIT License</Copyright>
     <Description>It is a BF implementation made with C#.</Description>
     <PackageProjectUrl>https://github.com/adyu1121</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/adyu1121/BFshap</RepositoryUrl>
+    <RepositoryUrl>https://github.com/adyu1121/BFsharp</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>C#;Brainfuck</PackageTags>
-    <Version>1.1.1</Version>
+    <Version>1.2.0</Version>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>The BFShap 1.1
+    <PackageReleaseNotes>The BFSharp 1.2
 
 namespace change  
-Error struct is individual 
 
-For more information, please refer to https://github.com/adyu1121/BFshap/releases/tag/V1.1</PackageReleaseNotes>
+For more information, please refer to https://github.com/adyu1121/BFsharp/releases/tag/V1.2</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -40,7 +39,7 @@ For more information, please refer to https://github.com/adyu1121/BFshap/release
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\..\Desktop\LICENSE.txt">
+    <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

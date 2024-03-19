@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33205.214
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFShap", "BFShap.csproj", "{18F377BD-80B2-41BC-BE75-C8836234BBEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFSharp", "BFSharp.csproj", "{18F377BD-80B2-41BC-BE75-C8836234BBEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
